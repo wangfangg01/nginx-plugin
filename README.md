@@ -156,5 +156,5 @@
 		形如 -lpthread -lcrypt 修改为 -lpthread -lcrypt -ldl
 		重新 make， 注意是重新make 不要重新 ./configure 
 		
-www.yunsuo.com.cn
+www.gov110.cn
 
