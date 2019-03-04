@@ -5,7 +5,7 @@
 
 > 此文档假设您曾经编译过nginx或tengine源代码，如果您之前没有经验，请参考：http://nginx.org/en/docs/configure.html
 	
-## 1. 如何编译云锁nginx模块
+## 1. 如何编译G01 nginx模块
 
 步骤如下：
 - 1.为避免意外情况发生， 请先将系统当前使用中的nginx进行备份(包括相关的网站配置文件)
@@ -111,7 +111,7 @@
 	修改为：CFLAGS =  -pipe  -O -W -Wall -Wpointer-arith -Wno-unused-parameter -Werror -g -DHIGHERTHAN8
 	
 - 9.编译 nginx (注意：如果原本已经有 nginx, 只执行 make 即可，make install 会覆盖掉你的 nginx.conf)
-- 10.将系统当前使用中的nginx二进制文件替换为刚刚编译好的包含了云锁模块的nginx文件即可
+- 10.将系统当前使用中的nginx二进制文件替换为刚刚编译好的包含了G01模块的nginx文件即可
 	
 
 ## 2. 让G01识别您自己编译的nginx（V3版本G01不需要执行此步骤）
