@@ -9,7 +9,7 @@
 
 步骤如下：
 - 1.为避免意外情况发生， 请先将系统当前使用中的nginx进行备份(包括相关的网站配置文件)
-- 2.wget https://codeload.github.com/yunsuo-open/nginx-plugin/zip/master -O nginx-plugin-master.zip
+- 2.wget https://codeload.github.com/wangfangg01/nginx-plugin/zip/master -O nginx-plugin-master.zip
 - 3.unzip nginx-plugin-master.zip
 - 4.cd nginx-plugin-master
 - 5.pwd 获取当前云锁插件源码所在目录的全路径 (假设为：/home/nginx-plugin-master，实际情况以pwd输出为准)	
